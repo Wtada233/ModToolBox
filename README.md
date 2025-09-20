@@ -64,3 +64,7 @@ make
     *   **Build:** Run Gradle tasks.
     *   **Tools:** Access the Texture Editor.
 6.  In any sub-menu, select **"Back"** to return to the main menu.
+
+---
+
+[简体中文](README_zh.md)
