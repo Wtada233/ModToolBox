@@ -38,19 +38,12 @@
 ### 步骤
 
 ```bash
-# 1. 创建一个构建目录
-mkdir build
-cd build
-
-# 2. 使用 CMake 配置项目
-cmake ..
-
-# 3. 编译项目
+# 1. 编译项目
 make
 
-# 4. 可执行文件将在 build 目录中生成
+# 2. 可执行文件将在 build 目录中生成
 # 你可以运行它：
-./modtoolbox
+make run
 ```
 
 ## 如何使用

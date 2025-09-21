@@ -38,19 +38,12 @@ This tool provides a simple Text-based User Interface (TUI) for managing common 
 ### Steps
 
 ```bash
-# 1. Create a build directory
-mkdir build
-cd build
-
-# 2. Configure the project with CMake
-cmake ..
-
-# 3. Compile the project
+# 1. Compile the project
 make
 
-# 4. The executable will be generated in the build directory
+# 2. The executable will be generated in the build directory
 # You can run it with:
-./modtoolbox
+make run
 ```
 
 ## How to Use
