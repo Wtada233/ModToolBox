@@ -49,5 +49,6 @@
   "main_menu_build": "构建",
   "main_menu_configuration": "配置",
   "main_menu_tools": "工具",
-  "app_state_no_build_output": "没有运行构建命令。"
+  "app_state_no_build_output": "没有运行构建命令。",
+  "build_error_no_project_open": "错误：没有打开任何项目文件夹。请先打开一个项目。"
 }

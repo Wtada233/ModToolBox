@@ -15,6 +15,10 @@ ftxui::Component CreateBuildMenu(std::function<void()> on_back) {
     using namespace ftxui;
 
     auto run_task = [&](const std::string& task) {
+        if (app_state.project_path.empty()) {
+            app_state.status_message = modtoolbox::core::Localization::Get("build_error_no_project_open");
+            return;
+        }
         // Check if a task is already running
         if (app_state.current_gradle_task_future.has_value() &&
             app_state.current_gradle_task_future->wait_for(std::chrono::seconds(0)) == std::future_status::timeout) {

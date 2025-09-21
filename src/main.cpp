@@ -35,7 +35,7 @@ int main() {
     modtoolbox::core::Localization::Init();
 
     // Initialize app_state fields that depend on localization
-    app_state.project_path = modtoolbox::core::Localization::Get("app_state_no_project_opened");
+  modtoolbox::core::AppState app_state;
     app_state.status_message = modtoolbox::core::Localization::Get("app_state_welcome_message");
     app_state.build_output = modtoolbox::core::Localization::Get("app_state_no_build_output");
 

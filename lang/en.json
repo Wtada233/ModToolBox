@@ -49,5 +49,6 @@
   "main_menu_build": "Build",
   "main_menu_configuration": "Configuration",
   "main_menu_tools": "Tools",
-  "app_state_no_build_output": "No build command has been run yet."
+  "app_state_no_build_output": "No build command has been run yet.",
+  "build_error_no_project_open": "Error: No project folder is open. Please open a project first."
 }
